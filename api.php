@@ -9,7 +9,7 @@ function decodeKeyFromUrl($key) {
     return urldecode($key);
 }
 
-$validKey = parseSpecialChars("test");// That is your key
+$validKey = parseSpecialChars("3");// That is your key
 $validIntegrityKey = parseSpecialChars("MrTusarRX");// that is integrityKey 
 
 
